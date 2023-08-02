@@ -18,7 +18,7 @@
 
 _프론트엔드 관련 정보는 [이 레포지스토리][html]를 참조해주세요._
 
-_Go-Gin 관련 정보는 [이 레포지스토리][gin]를 참조해 주세요_
+_firebase 관련 정보는 [이 레포지스토리][firebase]를 참조해 주세요_
 
 ## 개발 환경 설정
 
@@ -53,3 +53,4 @@ firebase serve
 [fire-image]: https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white
 [html]: https://github.com/3boku/Full-stack
 [gin]: https://github.com/3boku/gin_examples
+[firebase]: https://github.com/3boku/applemarket
