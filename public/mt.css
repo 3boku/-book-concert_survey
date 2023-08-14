@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+}
+.empty {
+    border: none;
+}
+div {
+    margin: 0 auto;
+    height: 2rem;
+    padding: auto;
+    text-align: center;
+}
+
+.jjj {
+    width: 10rem;
+    height: 10rem;
+    font-size: 40px;
+    margin: 0 auto;
+}

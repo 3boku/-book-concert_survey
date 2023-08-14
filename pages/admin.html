@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/public/global.css" />
+        <link rel="stylesheet" href="/public/admin.css" />
+
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const buttons = document.querySelectorAll("button:not(.jjj)"); // 'jjj' 클래스를 제외한 모든 버튼 요소를 선택
+                const currentSelected =
+                    document.querySelector(".current-selected");
+                const submitButton = document.querySelector(".jjj"); // 'jjj' 클래스를 가진 요소 선택
+
+                buttons.forEach((button) => {
+                    button.addEventListener("click", (event) => {
+                        currentSelected.textContent = `현재 선택한 내용: ${event.target.id}`;
+                    });
+                });
+
+                submitButton.addEventListener("click", () => {
+                    alert("적용이 완료되었습니다"); // 제출 버튼 클릭 시 경고창 띄우기
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <textarea id="mt-title" cols="30" rows="10">
+ 객관식의 제목을 입력해주세요
+ </textarea
+        >
+        <textarea id="mt-sub" cols="30" rows="10">
+ 객관식의 내용을 입력해주세요
+</textarea
+        >
+        <div class="jjj"><button class="jjj">적용</button></div>
+        <div class="empty"></div>
+        <textarea id="mt-title" cols="30" rows="10">
+ 주관식의 제목을 입력해주세요
+</textarea
+        >
+        <textarea id="mt-sub" cols="30" rows="10">
+ 주관식의 내용을 입력해주세요
+</textarea
+        >
+        <div class="jjj"><button class="jjj">적용</button></div>
+    </body>
+</html>

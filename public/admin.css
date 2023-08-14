@@ -1,0 +1,27 @@
+textarea {
+    display: flex;
+    margin: 0 auto;
+    width: 20rem;
+    height: 5rem;
+    font-size: large;
+}
+
+.jjj {
+    width: 10rem;
+    height: 10rem;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.empty {
+    height: 5rem;
+}
+
+.jjj2 {
+    width: 10rem;
+    height: 10rem;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
